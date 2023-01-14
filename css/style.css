@@ -169,16 +169,19 @@ header nav{
     background-color: #FF900E;
     border-radius: 50px;
 }
-.feature-sec p{
+.feature-sec  p{
     padding-top: 25px;
     padding-bottom: 25px;
 }
 .feature-sub-container{
-    padding: 30px;
+    padding: 10px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     margin-bottom: 20px;
+}
+.feature-sub-container p {
+    padding: 3px;
 }
 .feature-sec-image img{
     height: 100%;
