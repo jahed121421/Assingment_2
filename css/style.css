@@ -1,0 +1,370 @@
+/*-------------------
+ google fonts link
+ -------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700&family=Roboto:ital,wght@0,300;0,700;1,900&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+/*---------------------
+ common
+ --------------------*/
+
+p{
+    font-size: 16px;
+    color: #727272;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+
+ /* header-part/logo/menus/banner */
+
+
+
+header{
+     height: 100%;
+     width: 100%;
+     background-color: #ff8f0e31;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 180px;
+ }
+ nav .logo{
+    font-size: 35px;
+    font-weight: 700;
+ }
+ nav .menus{
+    display: flex;
+ }
+ .menus li{
+    list-style: none;
+    padding-left: 40px ;
+}
+.menus li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #131313;
+ }
+
+
+
+/* banner secetion  */
+
+
+
+ .banner-container{
+    text-align: center;
+ }
+ .banner-container .banner-text{
+    padding: 50px 100px 35px 100px;
+ }
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 25px;
+ }
+.banner-text .banner-paragraph{
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-btn{
+    height: 65px;
+    width: 190px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: #FF900E;
+    margin-bottom: 5px;
+}
+.banner-image img{
+    width: 100%;
+    padding: 45px;
+}
+
+
+
+/* quick-list section */
+
+
+
+
+.quick-list{
+    display: flex;
+    gap: 70px;
+    padding: 80px 100px 130px 100px ;
+    justify-content: center;
+    align-items: center;
+}
+.quick-list > div{
+    flex: 1;
+}
+.quick-list-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:15px 15px
+}
+.quick-list-image img{
+    height: 100%;
+    width: 100%;
+}
+.quick-list-article h1{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: left;
+    color: #727272;
+    padding-bottom: 30px;
+}
+.quick-list-article h1 .span0{
+    color: #131313;
+}
+.quick-list-article h1 .span1{
+    font-weight: 700;
+    color: #FF900E;
+}
+.quick-list-article p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+
+
+/* feature-sec */
+
+
+
+.feature-sec{
+    display: flex;
+    gap: 90px;
+    padding: 80px 100px 130px 100px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-sec div{
+    flex: 1;
+}
+
+.feature-title{
+    font-size: 35px;
+    position: relative;
+    padding-left: 15px;
+}
+.feature-title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 5px;
+    height: 100%;
+    background-color: #FF900E;
+    border-radius: 50px;
+}
+.feature-sec p{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.feature-sub-container{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.feature-sec-image img{
+    height: 100%;
+    width: 100%;
+}
+.btn1{
+    transform: translate(-30%, -80%);
+    height: 100px;
+    width: 200px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.btn1 small{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+/* some-fact section */
+
+
+.some-facts{
+    padding:0px 100px 150px 100px;
+}
+.some-fact{
+    margin-bottom: 100px;
+}
+.some-fact > h1{
+    font-size: 38px;
+    padding-bottom: 25px;
+}
+.some-fact-containers{
+    display: flex;
+    justify-content:space-evenly;
+}
+.some-fact-container{
+    border: 2px solid orange;
+    text-align: center;
+    padding: 20px;
+    border-radius: 05px;
+    height: 180px;
+    width: 180px;
+    transition: all .5s ;
+}
+.some-fact-container:hover{
+    transform: translateY(-70px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2),
+                0 0 0 10px white,
+                0 0 0 15px rgba(21, 255, 0, 0.473);
+    border-radius: 50%;
+    background-color:#FF900E;
+    font-size: 110%;
+}
+.some-fact-container  img, h1{
+    padding-bottom: 10px;
+}
+.some-fact-container h4{
+    font-weight: 400;
+    color: #727272;
+}
+
+
+/* sponsors section */
+
+
+.sponsors{
+    text-align: center;
+    padding: 0 100px 100px 100px ;
+}
+.sponsors p{
+    padding-bottom: 30px;
+}
+.sponsor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 15px;
+}
+.sponsor a{
+    text-decoration: none;
+}
+.sponsor img{
+    height: 40px;
+    width: 140px;
+    filter: grayscale();
+}
+
+/* contact section */
+.contact{
+    background-color: rgb(255, 167, 3);
+    color: white;
+    margin: 0;
+    padding-left: 100px;
+    display: flex;
+    gap: 80px;
+    padding:100px;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    font-size: 35px;
+}
+.contact p{
+    color: white;
+    padding-bottom: 20px;
+}
+.contact .social-media-link a {
+    text-decoration: none;
+    color: white;
+}
+.contact form input::placeholder, textarea::placeholder{
+    color: rgb(216, 65, 6);
+    opacity: .5;
+}
+.contact input, textarea{
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.contact form .btn2{
+    height: 40px;
+    width: 90px;
+    color: #FF900E;
+}
+
+/* copyright section */
+
+.copyright{
+    /* margin: 130px; */
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.397);
+}
+.copyright p{
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+/* mobil view media queary */
+
+@media only screen and (max-width: 576px) {
+
+    nav{
+        flex-direction: column;
+    }
+    nav .menus{
+        flex-direction: column;
+    }
+    .banner-text .banner-title{
+        font-size: 35px;
+    }
+    .quick-list{
+        flex-direction: column;
+    }
+    .quick-list .quick-list-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-sec{
+        flex-direction: column;
+        padding: 30px 65px 100px 78px;
+    }
+    .btn1{
+        transform: translate(0%);
+    }
+    .some-fact-containers{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .sponsor{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact{
+        flex-direction: column;
+        padding: 45px;
+    }
+    .copyright{
+        padding: 15px;
+    }
+}
