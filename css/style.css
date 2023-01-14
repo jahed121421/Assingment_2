@@ -87,7 +87,7 @@ header nav{
 }
 .banner-image img{
     width: 100%;
-    padding: 45px;
+    padding: 100px 150px;
 }
 
 
@@ -341,6 +341,9 @@ header nav{
     }
     .banner-text .banner-title{
         font-size: 35px;
+    }
+    .banner-image img{
+        padding:45px;
     }
     .quick-list{
         flex-direction: column;
