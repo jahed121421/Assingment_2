@@ -45,7 +45,7 @@ header nav{
  }
  .menus li{
     list-style: none;
-    padding-left: 40px ;
+    padding-left: 25px ;
 }
 .menus li a{
     text-decoration: none;
@@ -64,7 +64,7 @@ header nav{
     text-align: center;
  }
  .banner-container .banner-text{
-    padding: 50px 100px 35px 100px;
+    padding: 50px 180px 35px 180px;
  }
 .banner-title{
     font-size: 50px;
@@ -333,12 +333,21 @@ header nav{
 
 @media only screen and (max-width: 576px) {
 
-    nav{
+    header nav{
         flex-direction: column;
+        padding: 50px 50px;
+        text-align: center;
     }
     nav .menus{
         flex-direction: column;
+        padding: 30px 50px;
     }
+    nav .menus li{
+        padding: 10px;
+    }
+    .banner-container .banner-text{
+        padding: 20px 40px 35px 40px;
+     }
     .banner-text .banner-title{
         font-size: 35px;
     }
