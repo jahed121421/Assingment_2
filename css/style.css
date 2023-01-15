@@ -367,7 +367,7 @@ header nav{
         padding: 30px 65px 100px 78px;
     }
     .btn1{
-        transform: translate(8%, -50%);
+        transform: translateY(-50%);
     }
     .some-fact-containers{
         flex-direction: column;
