@@ -267,7 +267,10 @@ header nav{
 .sponsor img{
     height: 40px;
     width: 140px;
-    filter: grayscale();
+    filter: grayscale(100%);
+}
+.sponsor img:hover{
+    filter: grayscale(0);
 }
 
 /* contact section */
@@ -365,7 +368,7 @@ header nav{
         padding: 30px 65px 100px 78px;
     }
     .btn1{
-        transform: translate(0%);
+        transform: translate(15px, -50%);
     }
     .some-fact-containers{
         flex-direction: column;
